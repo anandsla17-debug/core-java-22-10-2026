@@ -1,5 +1,7 @@
 package operators;
 
+import java.util.Scanner;
+
 public class Operators {
 	
 	
@@ -49,6 +51,48 @@ public Operators() {
 		mark%=7;
 		mark=25000;
 		System.out.println(mark);
+		
+		//logical operator =>or and not
+		int value=12;
+		System.out.println("and gate:"+(value<20 && value!=20));
+		System.out.println("or gate:"+(value<23 || value<10));
+		// bit wise opeartor =>01
+		int no1=5;
+		int no2=3;
+		//8421
+		//=>and
+		//0101
+		//0011
+		//0001
+		System.out.println(no1&no2);
+		//0101=>5
+		//0011=3
+		//0111=>7
+		System.out.println(no1|no2);
+		//xor=>^
+		//0101=>5
+	    //0011=3
+		//0110
+		System.out.println(no1^no2);
+		System.out.println("not bit wise:"+(~-8));
+		
+		//ternory opearator=>?
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter your age");
+//		int age=sc.nextInt();
+		int age =21;
+		
+		String vote=age>=18?"egible to vote":"not egible to vote";
+		System.out.println(vote);
+		// increment and decrement
+	int data=1;
+		System.out.println(" post increment"+data++); //post increment
+		System.out.println("result"+data);
+		System.out.println("pre increment"+(++data));
+		System.out.println("post decrement"+data--);
+		System.out.println("result"+data);
+		System.out.println("pre decrement"+--data);
+		
 		
 		
 		

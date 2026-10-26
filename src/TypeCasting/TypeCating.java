@@ -53,6 +53,11 @@ public class TypeCating {
 		double salaryin=(double) salary;
 		System.out.println(salaryin);
 		
+	// int to byte
+		
+		int team=200;
+		byte teamin=(byte) team;
+		System.out.println(teamin);
 		
 		
 
