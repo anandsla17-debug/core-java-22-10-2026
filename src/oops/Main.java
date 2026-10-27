@@ -11,7 +11,7 @@ public class Main {
 		Child child=new Child();
 		child.findlength("max");
 		child.form("max", "password");
-		//polymorphism=> method riding=> ,methodoverloading=>
+		//polymorphism=> method riding=> run time(different) ,methodoverloading=>complier time(same class)
 		// abstraction(abstract class half abstract and interface full abstract), and encapsulation.
 		
 	}
