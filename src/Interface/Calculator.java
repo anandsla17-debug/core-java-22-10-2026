@@ -3,7 +3,7 @@ package Interface;
 public interface Calculator {
 	public void add();
 
- 	  String name="max";// default static final
+ 	  String name="max";// default provided => static final
  	
 	//=> default
 	default void method() {

@@ -14,7 +14,7 @@ private int accountpin;// directly not change
 	}
 	
 @Override
-	public  void hide(double balance, int accountpin) {
+ public  void hide(double balance, int accountpin) {
 		System.out.println("balance:"+this.balance+",accountpin"+this.accountpin);
 		System.out.println("do not change balance and accountpin:"+balance+accountpin);
 	}

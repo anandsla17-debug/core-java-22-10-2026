@@ -17,7 +17,7 @@ public static void main(String[] args) {
 	 System.out.println(Calculator.name);
 	Main m =new Main();
 	m.data="kumar";
-	System.out.println(m.data);
+//	System.out.println(m.data);// not need
 	System.out.println(Main.data);
 }
 }
