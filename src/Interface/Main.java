@@ -1,6 +1,8 @@
 package Interface;
 
 public class Main {
+	
+  static	String data="arun";
 public static void main(String[] args) {
 //	Calculator calculator=new ArthmaticImpl();
 //	calculator.add();
@@ -8,6 +10,14 @@ public static void main(String[] args) {
 //	subInterface.sub();
 	
 	Calculator calculator2= new Impl2();
-	calculator2.add();
+//	calculator2.add();
+	 calculator2.method();
+	 Calculator.method2();
+	 calculator2.call();
+	 System.out.println(Calculator.name);
+	Main m =new Main();
+	m.data="kumar";
+	System.out.println(m.data);
+	System.out.println(Main.data);
 }
 }
