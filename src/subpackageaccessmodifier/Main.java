@@ -17,8 +17,11 @@ public static void main(String [] args) {
 	
 	Protectorexplaination protectorexplaination= new Protectorexplaination();
 	
+	
 	Subclassforprotected subclassforprotected= new Subclassforprotected();
 	subclassforprotected.submethodforprotector();
 	subclassforprotected.protectedmethod();
+	
+	
 }
 }
