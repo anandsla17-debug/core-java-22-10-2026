@@ -35,5 +35,8 @@ public class Dowhileandwhile {
 			System.out.println("do:"+team);
 			team++;
 		}while(team<20);
+		
+		
+		
 	}
 }
