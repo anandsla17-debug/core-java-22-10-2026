@@ -1,11 +1,11 @@
-package stackarray;
+package staticarray;
 
 import java.util.Scanner;
 
 public class Array {
 
 	void onedementional() {
-		// => collection info,allow duplicate,insert order,index=>0 ,stack fixed size
+		//array => collection info,allow duplicate,insert order,index=>0 ,stack fixed size
 		
 				//one dementional
 				int[] arr= {1,2,3,4,5,6,5};
