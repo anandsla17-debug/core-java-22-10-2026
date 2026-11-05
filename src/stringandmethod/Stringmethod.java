@@ -38,6 +38,7 @@ public class Stringmethod {
 		System.out.println(a.substring(0, 2));
 		System.out.println(a.toLowerCase());
 		System.out.println(a.toUpperCase());
+		System.out.println(a.contains("Hello"));
 
 	}
 
