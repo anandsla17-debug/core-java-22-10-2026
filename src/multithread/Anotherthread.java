@@ -1,7 +1,6 @@
 package multithread;
 
 public class Anotherthread  extends Parent implements Runnable{
-
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
@@ -17,7 +16,6 @@ public class Anotherthread  extends Parent implements Runnable{
 		}
 		
 	}
-	
 	public void normalloop() {
 		for(int i=0; i<40;i++) {
 			if(i%5==0) {
