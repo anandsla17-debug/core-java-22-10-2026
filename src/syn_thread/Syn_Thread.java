@@ -13,7 +13,7 @@ synchronized void  food() {
 		System.err.println("food"+i);
 		Thread.sleep(1000);
 		
-		if(i==0) {
+	if(i==0) {
 		wait();//
 		}
 	} catch (InterruptedException e) {
@@ -96,8 +96,11 @@ public void  booking() {
 //t5
 synchronized void realize1() {
 	notify();// it will realize first
-//	notifyAll();// it will relize all thread
+	
 	System.out.println("------------");
+}
+synchronized void realizeall() {
+	notifyAll();// it will relize all thread
 }
 
 public static void main(String[] args) {
@@ -119,16 +122,21 @@ public static void main(String[] args) {
 //		syn_thread1.parentthread(); without syn
 		syn_Thread.parentthread();
 	});
-	Thread unlockfirst= new Thread(()->{
-		syn_Thread.realize1();
+//	Thread unlockfirst= new Thread(()->{
+//		syn_Thread.realize1();
+//	});
+	Thread unlockall=new Thread(()->{
+		syn_Thread.realizeall();
 	});
 	t1.start();//1
 	t2.start();//2
 	t3.start();//3
 	
 	t4.start();
-	unlockfirst.start();
+//	unlockfirst.start();
+	unlockall.start();
 	syn_Thread.booking();//1
+	
 	
 }
 	
