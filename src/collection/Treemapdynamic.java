@@ -5,8 +5,6 @@ import java.util.TreeMap;
 public class Treemapdynamic {
 public static void main(String[] args) {
 	TreeMap<Integer,String> appointment= new TreeMap<>();
-	
-	
 	appointment.put(3, "joe");
 	appointment.put(4,"kumar");
 	appointment.put(2, "arun");
